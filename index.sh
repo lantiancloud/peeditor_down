@@ -60,7 +60,7 @@ fi
 if echo "${version_list}" | grep -q "${input}"; then
   version=${input}
   update_time
-  echo -e "${current_time} ${log_info} 开始下载LeviLamina ${version}"
+  echo -e "${current_time} ${log_info} 开始下载PeEditor ${version}"
   pget "${download_url}"
   update_time
   echo -e "${current_time} ${log_info} 下载完成"
